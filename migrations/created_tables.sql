@@ -1,7 +1,8 @@
+
 CREATE DATABASE IF NOT EXISTS stock_tracker;
 USE stock_tracker;
 
-/*
+
 CREATE TABLE sectors (
 
 id INTEGER PRIMARY KEY,
@@ -35,6 +36,6 @@ close_price DECIMAL(10,2),
 volume BIGINT,
 PRIMARY KEY (security_id, trade_date)
 );
-*/
+
 SHOW TABLES;
 SHOW CREATE TABLE daily_prices;
